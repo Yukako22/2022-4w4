@@ -18,20 +18,21 @@
         width : 25%;
     }
 
-    border: 2px solid rgb(244, 244, 255);
-    background-color: #b7b6af;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #72716d;
 }
 
 .cours__carte:nth-of-type(even){
-    background-color: #cecdc5;
+    background-color: #53534f;
 }
 
 .cours__carte:hover{
     box-shadow: 5px 15px 15px rgba(233, 233, 233, 0.6);
+    cursor: pointer;
 }
 
 .cours__carte h2{
-    color: #73726e;
+    color: #000000;
     text-align: left;
 }
 

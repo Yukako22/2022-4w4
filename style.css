@@ -365,7 +365,7 @@ COMPOSANTS
 .carte__titre {
   font-size: 1.4rem;
   padding-bottom: 5px;
-  border-bottom: 2px solid #73726e;
+  border-bottom: 2px solid #000000;
 }
 
 .carte__code {
@@ -388,8 +388,8 @@ COMPOSANTS
   margin: 20px;
   padding: 0 20px;
   width: 100%;
-  border: 2px solid #f4f4ff;
-  background-color: #b7b6af;
+  border: 2px solid black;
+  background-color: #72716d;
 }
 
 @media screen and (min-width: 500px) {
@@ -405,15 +405,16 @@ COMPOSANTS
 }
 
 .cours__carte:nth-of-type(even) {
-  background-color: #cecdc5;
+  background-color: #53534f;
 }
 
 .cours__carte:hover {
   box-shadow: 5px 15px 15px rgba(233, 233, 233, 0.6);
+  cursor: pointer;
 }
 
 .cours__carte h2 {
-  color: #73726e;
+  color: #000000;
   text-align: left;
 }
 
