@@ -425,6 +425,12 @@ COMPOSANTS
   font-weight: bold;
 }
 
+.site__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .site__header {
   display: flex;
   flex-direction: column;
