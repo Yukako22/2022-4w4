@@ -1,0 +1,42 @@
+#chk-burger {
+    display: none;
+}
+#chk-burger:checked ~ #burger {
+    transform : rotate(90deg);
+}
+#burger {
+    
+    position: absolute;
+    transition:transform .5s;
+    @media screen and (min-width: $largeur__media-tablette) {
+        display: none;
+    }
+}
+
+#chk-burger:checked ~ .menu-principal-container{
+    display: block;
+}
+.menu-principal-container{
+    padding: 20px 0 0 0;
+    display: none;
+    @media screen and (min-width: $largeur__media-tablette) {
+        display: flex;
+    }
+    
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    margin: 0;
+    a {
+        display:block;
+        padding: 3px;
+        text-decoration: none;
+        &:hover{
+            background-color: $background__link-hover;
+        }
+    }
+}
